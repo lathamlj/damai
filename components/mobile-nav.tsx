@@ -36,11 +36,20 @@ export function MobileNav() {
           onOpenChange={setOpen}
         >
           <ArrowRightSquare className="mr-2 h-4 w-4" />
-          <span className="text-muted-foreground">Site Name</span>
+          <span className="text-muted-foreground">Damai Global</span>
         </MobileLink>
         <ScrollArea className="my-4 h-[calc(100vh-8rem)] pb-10 pl-6">
           <div className="flex flex-col space-y-3">
             <h3 className="text-small mt-6">Menu</h3>
+            <MobileLink href="/about" onOpenChange={setOpen}>
+              About
+            </MobileLink>
+            <MobileLink href="/employers" onOpenChange={setOpen}>
+              Employers
+            </MobileLink>
+            <MobileLink href="/contact" onOpenChange={setOpen}>
+              Contact Us
+            </MobileLink>
           </div>
         </ScrollArea>
       </SheetContent>

@@ -56,12 +56,12 @@ const Nav = ({ className, children, id }: NavProps) => {
       >
         <Link className="hover:opacity-75 transition-all" href="/">
           <h2 className="sr-only">Damai Global</h2>
-          <Image src="/logo.svg" alt="Logo" width={164} height={28.5}></Image>
+          <Image src="/logo.svg" className="-mb-1" alt="Logo" width={164} height={28.5}></Image>
         </Link>
         {children}
         <div className="flex items-center gap-2">
           <NavMenu />
-          <Button asChild>
+          <Button className="hidden sm:flex" asChild>
             <Link href="/contact">Contact Us</Link>
           </Button>
           <MobileNav />
@@ -73,7 +73,7 @@ const Nav = ({ className, children, id }: NavProps) => {
 
 const Footer = () => {
   return (
-    <footer className="drop-shadow-sm">
+    <footer className="drop-shadow-sm bg-muted">
       <Section>
         <Container className="grid gap-6">
           <div className="grid gap-6">
