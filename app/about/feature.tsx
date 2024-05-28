@@ -18,16 +18,20 @@ const Feature = () => {
         <div className="flex flex-col gap-6">
           <h3 className="!my-0 md:text-2xl">Our Story</h3>
           <p className="font-light leading-[1.4] opacity-70">
-            After cultivating deep friendships with ambitious and talented
-            individuals across the globe, our founders, Carl and Kim Van Gils,
-            felt compelled to offer them the opportunity to embark on a more
-            fulfilling and enriching professional journey. To begin this
-            endeavor, Carl made the decision to hire our first employee, a
-            skilled individual based in Accra, Ghana, who worked remotely to
-            support Carl&apos;s podiatry practice. This momentous step marked
-            the birth of Damai Global LLC, a company founded on the principles
-            of connecting talented individuals worldwide to meaningful career
-            opportunities in the US.
+            The inspiration for Damai Global began with the friendships that our founder, 
+            Matthew, forged with ambitious and talented individuals while living in Ghana, Africa. 
+            Moved by their potential and drive, Matthew sought to provide them with opportunities 
+            for a more fulfilling and enriching professional journey. Partnering with Carl Van Gils, 
+            a podiatrist at the Foot & Ankle Institute in St. George, Utah, they decided to test the 
+            idea of using a remote offshore worker to support the busy medical practice.
+            Their first hire was a skilled college graduate from Accra, Ghana. This step proved to 
+            be life-changing for the Ghanaian worker and brought significant efficiency and cost 
+            savings to the podiatry practice. Within three months, Dr. Van Gils’ office manager 
+            requested two additional workers, leading to the birth of Damai Global.
+            Founded on the principles of connecting talented individuals worldwide with meaningful 
+            opportunities in the United States, Damai Global has grown rapidly. Today, we assist 
+            businesses in multiple states, positively impacting the lives of motivated and skilled 
+            individuals across the globe.
           </p>
           <div className="not-prose flex items-center gap-2">
             <Button className="w-fit" asChild>
